@@ -3,6 +3,6 @@ def print_items(a,b): # O(a + b)
         print(i) # printing takes O(1) time
 
     for j in range(b):  # for loop runs b times
-        print(j)
+        print(j) # printing takes O(1) time
 
 print_items(1, 10)
