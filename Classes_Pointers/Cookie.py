@@ -1,6 +1,6 @@
 class Cookie:  # Class definition for Cookie
     def __init__(self, color): # Constructor to initialize the color of the cookie, we use 'self' to refer to the instance
-        self.color = color
+        self.color = color # Instance variable to store the color of the cookie
 
     def get_color(self):
         return self.color
