@@ -1,4 +1,4 @@
-def print_items(a,b):
+def print_items(a,b): # O(a + b)
     for i in range(a):
         print(i)
 
