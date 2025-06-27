@@ -5,7 +5,7 @@ class Cookie:  # Class definition for Cookie
     def get_color(self): # Method to retrieve the color of the cookie
         return self.color # Returns the color of the cookie
 
-    def set_color(self, color):
+    def set_color(self, color): # Method to set a new color for the cookie
         self.color = color
 
 
