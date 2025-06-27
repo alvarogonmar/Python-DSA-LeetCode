@@ -3,7 +3,7 @@ class Cookie:  # Class definition for Cookie
         self.color = color # Instance variable to store the color of the cookie
 
     def get_color(self): # Method to retrieve the color of the cookie
-        return self.color
+        return self.color # Returns the color of the cookie
 
     def set_color(self, color):
         self.color = color
