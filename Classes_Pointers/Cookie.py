@@ -9,7 +9,7 @@ class Cookie:  # Class definition for Cookie
         self.color = color
 
 
-cookie_one = Cookie('green')
+cookie_one = Cookie('green') # Creating an instance of Cookie with color 'green'
 cookie_two = Cookie('blue')
 
 print('Cookie one is', cookie_one.get_color())
