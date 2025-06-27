@@ -15,7 +15,7 @@ cookie_two = Cookie('blue') # Creating another instance of Cookie with color 'bl
 print('Cookie one is', cookie_one.get_color()) # Using the get_color method to print the color of cookie_one
 print('Cookie two is', cookie_two.get_color()) # Using the get_color method to print the color of cookie_two
 
-cookie_one.set_color('yellow')
+cookie_one.set_color('yellow') # Changing the color of cookie_one to 'yellow' using the set_color method
 
 print('\nCookie one is now', cookie_one.get_color())
 print('Cookie two is still', cookie_two.get_color())
