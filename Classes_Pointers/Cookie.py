@@ -12,7 +12,7 @@ class Cookie:  # Class definition for Cookie
 cookie_one = Cookie('green') # Creating an instance of Cookie with color 'green'
 cookie_two = Cookie('blue') # Creating another instance of Cookie with color 'blue'
 
-print('Cookie one is', cookie_one.get_color())
+print('Cookie one is', cookie_one.get_color()) # Using the get_color method to print the color of cookie_one
 print('Cookie two is', cookie_two.get_color())
 
 cookie_one.set_color('yellow')
