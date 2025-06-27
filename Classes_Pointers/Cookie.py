@@ -17,5 +17,5 @@ print('Cookie two is', cookie_two.get_color()) # Using the get_color method to p
 
 cookie_one.set_color('yellow') # Changing the color of cookie_one to 'yellow' using the set_color method
 
-print('\nCookie one is now', cookie_one.get_color())
+print('\nCookie one is now', cookie_one.get_color()) # Printing the new color of cookie_one after changing it
 print('Cookie two is still', cookie_two.get_color())
