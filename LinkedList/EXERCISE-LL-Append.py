@@ -23,6 +23,7 @@ class LinkedList:
         self.length = 0
         
     def append(self, value):
+        new_node = Node(value)
 
 
 
