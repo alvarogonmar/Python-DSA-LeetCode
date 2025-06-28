@@ -5,6 +5,9 @@
     #                               #
     #                               #
     #################################
+class Node:
+    def __init__(self, value):
+        
         
 # class LinkedList:
     ## WRITE LL CONSTRUCTOR HERE ##
