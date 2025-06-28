@@ -21,6 +21,8 @@ class LinkedList:
         self.head = None
         self.tail = None
         self.length = 0
+        
+    def append(self, value):
 
 
 
