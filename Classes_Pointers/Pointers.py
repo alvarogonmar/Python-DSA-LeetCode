@@ -2,7 +2,7 @@ num1 = 11
 
 num2 = num1 # This creates a new reference to the same object
 
-print("Before num2 value is updated:") 
+print("Before num2 value is updated:") # This is a comment explaining the line below
 print("num1 =", num1)
 print("num2 =", num2)
 
