@@ -33,6 +33,8 @@ class LinkedList:
             return None
         temp = self.head
         pre = self.head
+        while (temp.next):
+            pre = temp
 
 
 
