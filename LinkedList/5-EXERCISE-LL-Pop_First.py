@@ -61,6 +61,7 @@ class LinkedList:
         temp = self.head
         self.head = self.head.next
         temp.next = None
+        self.length -= 1
 
 
 
