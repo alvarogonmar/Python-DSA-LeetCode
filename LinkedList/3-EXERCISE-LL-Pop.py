@@ -39,7 +39,10 @@ class LinkedList:
         self.tail = pre
         self.tail.next = None
         self.length -= 1
-
+        if self.length == 1:
+            self.head = None
+            self.tail = None
+        return temp
 
 
 
