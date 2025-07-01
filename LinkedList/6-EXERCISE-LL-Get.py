@@ -72,7 +72,7 @@ class LinkedList:
         temp = self.head
         for _ in range(index):
             temp = temp,next
-
+        return temp
         
 
 
