@@ -84,7 +84,8 @@ class LinkedList:
         temp = self.get(index)
         if temp is not None:
             temp.value = value
-
+            return True
+        return False
 
     
 
