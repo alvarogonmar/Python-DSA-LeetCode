@@ -69,6 +69,7 @@ class LinkedList:
     def get(self, index):
         if index < 0 or index > self.length:
             return None
+        temp = self.head
 
         
 
