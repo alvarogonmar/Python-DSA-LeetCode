@@ -87,6 +87,8 @@ class LinkedList:
     #                            #
     #                            #
     ##############################
+    def insert(self, index, value):
+
 
   
 
