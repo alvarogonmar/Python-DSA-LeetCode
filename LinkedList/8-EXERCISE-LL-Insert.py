@@ -86,6 +86,7 @@ class LinkedList:
             return False
         if index == 0:
             return self.prepend(value)
+        if index == (self.length):
 
 
 
