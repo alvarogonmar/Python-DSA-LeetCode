@@ -89,6 +89,7 @@ class LinkedList:
         if index == (self.length):
             return self.append(value)
         new_node = Node(value)
+        temp = self.get(index - 1)
 
 
 
