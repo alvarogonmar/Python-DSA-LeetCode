@@ -88,6 +88,7 @@ class LinkedList:
             return self.prepend(value)
         if index == (self.length):
             return self.append(value)
+        new_node = Node(value)
 
 
 
