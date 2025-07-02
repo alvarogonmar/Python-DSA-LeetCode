@@ -81,13 +81,9 @@ class LinkedList:
             return True
         return False
     
-    ## WRITE INSERT METHOD HERE ##
-    #                            #
-    #                            #
-    #                            #
-    #                            #
-    ##############################
     def insert(self, index, value):
+        if index < 0 or index > self.length:
+
 
 
   
