@@ -104,6 +104,7 @@ class LinkedList:
             return self.pop()
         pre = self.get(index - 1)
         temp = pre.next
+        pre.next = temp.next
 
 
 
