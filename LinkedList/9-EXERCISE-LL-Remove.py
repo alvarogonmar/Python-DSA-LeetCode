@@ -106,6 +106,7 @@ class LinkedList:
         temp = pre.next
         pre.next = temp.next
         temp.next = None
+        self.length -= 1
 
 
 
