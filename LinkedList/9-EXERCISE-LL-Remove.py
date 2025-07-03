@@ -102,6 +102,7 @@ class LinkedList:
             return self.pop_first()
         if index == self.length:
             return self.pop()
+        pre = self.get(index - 1)
 
 
 
