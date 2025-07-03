@@ -105,6 +105,7 @@ class LinkedList:
         pre = self.get(index - 1)
         temp = pre.next
         pre.next = temp.next
+        temp.next = None
 
 
 
