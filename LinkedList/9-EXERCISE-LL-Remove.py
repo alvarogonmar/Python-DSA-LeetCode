@@ -103,6 +103,7 @@ class LinkedList:
         if index == self.length:
             return self.pop()
         pre = self.get(index - 1)
+        temp = pre.next
 
 
 
