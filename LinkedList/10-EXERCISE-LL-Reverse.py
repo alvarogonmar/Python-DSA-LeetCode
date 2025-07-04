@@ -116,6 +116,7 @@ class LinkedList:
         after = temp.next
         before = None
         for _ in range(self.length):
+            after = temp.next
 
   
 
