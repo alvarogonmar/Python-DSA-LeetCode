@@ -23,6 +23,8 @@ class Node:
 class DoublyLinkedList:
     def __init__(self, value):
         new_node = Node(value)
+        self.head = new_node
+        self.tail = new_node
 
 
 my_doubly_linked_list = DoublyLinkedList(7)
