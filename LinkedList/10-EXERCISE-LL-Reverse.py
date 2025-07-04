@@ -114,6 +114,7 @@ class LinkedList:
         self.head = self.tail
         self.tail = self.head
         after = temp.next
+        before = None
 
   
 
