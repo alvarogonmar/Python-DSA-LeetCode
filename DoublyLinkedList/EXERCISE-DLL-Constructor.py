@@ -14,7 +14,11 @@
     #                              #
     ################################
   
-
+class Node:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+        self.prev = None
 
 
 my_doubly_linked_list = DoublyLinkedList(7)
