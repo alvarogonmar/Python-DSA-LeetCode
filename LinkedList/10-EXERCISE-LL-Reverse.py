@@ -112,6 +112,7 @@ class LinkedList:
     def reverse(self):
         temp = self.head
         self.head = self.tail
+        self.tail = self.head
 
   
 
