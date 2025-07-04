@@ -119,7 +119,7 @@ class LinkedList:
             after = temp.next
             temp.next = before
             before = temp
-
+            temp = after
   
 
 
