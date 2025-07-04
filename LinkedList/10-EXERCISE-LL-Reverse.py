@@ -108,37 +108,6 @@ class LinkedList:
         temp.next = None
         self.length -= 1
         return temp
-
-    def reverse(self):
-        temp = self.head
-        self.head = self.tail
-        self.tail = self.head
-        after = temp.next
-        before = None
-        for _ in range(self.length):
-            after = temp.next
-            temp.next = before
-            before = temp
-            temp = after
-
-    ######## SUBIR PRIMERO ARCHIVO DESPUES LO SIGUIENTE: ########
-    def pop(self):
-        if self.length == 0:
-            return None
-        temp = self.head
-        pre = self.head
-        while (temp.next):
-            pre = temp
-            temp = temp.next
-        self.tail = pre
-        self.tail.next = None
-        self.length -= 1
-
-
-        if self.length == 1:
-            self.head = None
-            self.tail = None
-        return temp
   
 
 
