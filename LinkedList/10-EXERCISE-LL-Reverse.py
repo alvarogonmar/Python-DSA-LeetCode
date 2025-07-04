@@ -113,6 +113,7 @@ class LinkedList:
         temp = self.head
         self.head = self.tail
         self.tail = self.head
+        after = temp.next
 
   
 
