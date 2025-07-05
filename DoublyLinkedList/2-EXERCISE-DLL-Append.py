@@ -27,7 +27,8 @@ class DoublyLinkedList:
             new_node.prev = self.tail
             self.tail.next = new_node
             self.tail = new_node
-
+        self.length += 1
+        return True
 
 
 
