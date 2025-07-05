@@ -20,6 +20,7 @@ class DoublyLinkedList:
             
     def append(self, value):
         new_node = Node(value)
+        if (self.length == 0):
 
 
 
