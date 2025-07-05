@@ -25,6 +25,7 @@ class DoublyLinkedList:
             self.tail = new_node
         else:
             new_node.prev = self.tail
+            self.tail.next = new_node
 
 
 
