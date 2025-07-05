@@ -18,6 +18,8 @@ class DoublyLinkedList:
             print(temp.value)
             temp = temp.next
 
+    def append(self, value):
+       
 
 
 
