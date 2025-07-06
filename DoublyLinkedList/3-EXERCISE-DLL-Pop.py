@@ -31,6 +31,7 @@ class DoublyLinkedList:
         return True
 
     def pop(self):
+        if self.length == 0:
 
 
 
