@@ -35,6 +35,7 @@ class DoublyLinkedList:
             return None
         temp = self.tail
         if self.length == 1:
+            self.head = None
 
 
 
