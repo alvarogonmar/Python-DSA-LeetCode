@@ -40,7 +40,8 @@ class DoublyLinkedList:
         else:
             self.tail = temp.prev
             self.tail.next = None
-
+            temp.prev = None
+ 
 
 
   
