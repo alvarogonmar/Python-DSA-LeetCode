@@ -63,6 +63,8 @@ class DoublyLinkedList:
         if self.length == 1:
             self.head = None
             self.tail = None
+        else:
+            self.head = temp.next
 
 
 
