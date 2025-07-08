@@ -60,6 +60,7 @@ class DoublyLinkedList:
         if self.length == 0:
             return None
         temp = self.head
+        if self.length == 1:
 
 
 
