@@ -45,6 +45,7 @@ class DoublyLinkedList:
         return temp
 
     def prepend(self, value):
+        new_node = Node(value)
 
 
 
