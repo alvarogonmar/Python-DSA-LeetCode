@@ -44,6 +44,7 @@ class DoublyLinkedList:
         self.length -= 1
         return temp
 
+    def prepend(self, value):
 
 
 
