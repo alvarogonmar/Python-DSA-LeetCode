@@ -78,6 +78,8 @@ class DoublyLinkedList:
         if index < self.length/2:
             for _ in range(self.length):
                 temp = temp.next
+        else:
+            temp = self.tail
 
 
 
