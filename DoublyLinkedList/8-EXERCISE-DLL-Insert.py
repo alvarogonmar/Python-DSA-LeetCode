@@ -99,6 +99,7 @@ class DoublyLinkedList:
             return self.append(value)
         new_node = Node(value)
 
+        before = self.get(index - 1)
 
     
 
