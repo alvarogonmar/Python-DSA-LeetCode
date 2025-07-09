@@ -100,6 +100,8 @@ class DoublyLinkedList:
         new_node = Node(value)
 
         before = self.get(index - 1)
+        after = before.next
+
 
     
 
