@@ -80,6 +80,7 @@ class DoublyLinkedList:
                 temp = temp.next
         else:
             temp = self.tail
+            for _ in range(self.length - 1, index, -1):
 
 
 
