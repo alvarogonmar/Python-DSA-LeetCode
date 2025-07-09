@@ -91,6 +91,7 @@ class DoublyLinkedList:
         return False
     
     def insert(self, index, value):
+        if index < 0 or index > self.length:
 
     
 
