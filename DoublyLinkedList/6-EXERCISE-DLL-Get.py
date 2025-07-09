@@ -75,6 +75,7 @@ class DoublyLinkedList:
         if index < 0 or index >= self.length:
             return None
         temp = self.head
+        if index < self.length/2:
 
 
 
