@@ -84,6 +84,7 @@ class DoublyLinkedList:
         return temp
         
     def set_value(self, index, value):
+        temp = self.get(index)
 
             
 
