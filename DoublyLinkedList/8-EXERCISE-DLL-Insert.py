@@ -103,6 +103,7 @@ class DoublyLinkedList:
         after = before.next
 
         new_node.prev = before
+        new_node.next = after
 
     
 
