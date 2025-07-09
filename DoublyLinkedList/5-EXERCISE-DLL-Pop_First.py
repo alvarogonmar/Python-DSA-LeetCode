@@ -65,6 +65,7 @@ class DoublyLinkedList:
             self.tail = None
         else:
             self.head = temp.next
+            self.head.prev = None
 
 
 
