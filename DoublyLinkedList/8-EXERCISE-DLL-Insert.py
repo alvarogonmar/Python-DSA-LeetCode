@@ -102,6 +102,7 @@ class DoublyLinkedList:
         before = self.get(index - 1)
         after = before.next
 
+        new_node.prev = before
 
     
 
