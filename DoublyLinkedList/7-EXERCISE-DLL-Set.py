@@ -83,6 +83,7 @@ class DoublyLinkedList:
                 temp = temp.prev  
         return temp
         
+    def set_value(self, index, value):
 
             
 
