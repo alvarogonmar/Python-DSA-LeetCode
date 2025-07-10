@@ -123,6 +123,8 @@ class DoublyLinkedList:
         temp.next = None
         temp.prev = None
 
+        self.length -= 1
+
   
 
 
