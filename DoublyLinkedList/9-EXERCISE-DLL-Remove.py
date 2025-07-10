@@ -124,7 +124,7 @@ class DoublyLinkedList:
         temp.prev = None
 
         self.length -= 1
-
+        return temp
   
 
 
