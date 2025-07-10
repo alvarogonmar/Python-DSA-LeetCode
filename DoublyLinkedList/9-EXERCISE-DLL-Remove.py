@@ -112,6 +112,7 @@ class DoublyLinkedList:
 
     def remove(self, index):
         if index < 0 or index >= self.length:
+            return None
  
   
 
