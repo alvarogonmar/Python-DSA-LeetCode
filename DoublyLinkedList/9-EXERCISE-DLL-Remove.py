@@ -117,6 +117,7 @@ class DoublyLinkedList:
             return self.pop_first
         if index == self.length:
             return self.pop
+        temp = self.get(index)
  
   
 
