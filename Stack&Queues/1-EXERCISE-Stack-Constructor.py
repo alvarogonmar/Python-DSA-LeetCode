@@ -22,6 +22,7 @@ class Node:
 class Stack:
     def __init__(self, value):
         new_node = Node(value)
+        self.top = new_node
 
 
 my_stack = Stack(4)
