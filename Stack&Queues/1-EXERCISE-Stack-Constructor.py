@@ -19,6 +19,8 @@ class Node:
         self.value = value
         self.next = None
 
+class Stack:
+
 
 my_stack = Stack(4)
 
