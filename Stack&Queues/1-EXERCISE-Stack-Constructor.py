@@ -15,6 +15,7 @@
     ##################################
 
 class Node:
+    def __init__(self, value):
 
 
 my_stack = Stack(4)
