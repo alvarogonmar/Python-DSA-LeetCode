@@ -20,7 +20,9 @@ class Stack:
         new_node = Node(value)
         if self.height == 0:
             self.top = new_node
+        else:
 
+ 
 
 
 
