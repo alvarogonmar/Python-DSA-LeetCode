@@ -26,6 +26,7 @@ class Stack:
         self.height = 1
 
     def print_stack(self):
+        temp = self.top
 
 
 my_stack = Stack(4)
