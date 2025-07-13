@@ -28,6 +28,7 @@ class Stack:
     def print_stack(self):
         temp = self.top
         while temp:
+            print(temp.value)
 
 
 my_stack = Stack(4)
