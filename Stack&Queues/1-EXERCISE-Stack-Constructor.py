@@ -29,7 +29,7 @@ class Stack:
         temp = self.top
         while temp:
             print(temp.value)
-
+            temp = temp.next
 
 my_stack = Stack(4)
 
