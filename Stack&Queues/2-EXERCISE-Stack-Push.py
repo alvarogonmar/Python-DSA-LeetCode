@@ -16,6 +16,7 @@ class Stack:
             print(temp.value)
             temp = temp.next
 
+    def push(self, value):
 
 
 
