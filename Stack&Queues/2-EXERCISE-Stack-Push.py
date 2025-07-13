@@ -17,6 +17,7 @@ class Stack:
             temp = temp.next
 
     def push(self, value):
+        new_node = Node(value)
 
 
 
