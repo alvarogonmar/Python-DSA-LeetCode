@@ -22,6 +22,7 @@ class Stack:
             self.top = new_node
         else:
             new_node.next = self.top
+            self.top = new_node
 
  
 
