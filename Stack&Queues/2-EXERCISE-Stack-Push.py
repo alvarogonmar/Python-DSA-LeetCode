@@ -23,7 +23,7 @@ class Stack:
         else:
             new_node.next = self.top
             self.top = new_node
-
+        self.height += 1
  
 
 
