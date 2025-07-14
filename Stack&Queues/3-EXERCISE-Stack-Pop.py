@@ -27,6 +27,7 @@ class Stack:
         return True
 
     def pop(self):
+        if self.height == 0:
  
 
     
