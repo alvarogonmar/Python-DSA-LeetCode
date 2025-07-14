@@ -31,6 +31,7 @@ class Stack:
             return None
         else:
             temp = self.top
+            self.top = self.top.next
  
 
     
