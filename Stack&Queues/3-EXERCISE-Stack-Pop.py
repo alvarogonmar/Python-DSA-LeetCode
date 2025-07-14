@@ -30,6 +30,7 @@ class Stack:
         if self.height == 0:
             return None
         else:
+            temp = self.top
  
 
     
