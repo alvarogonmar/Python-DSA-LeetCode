@@ -26,7 +26,8 @@ class Stack:
         self.height += 1
         return True
 
-
+    def pop(self):
+ 
 
     
 
