@@ -32,6 +32,7 @@ class Stack:
         else:
             temp = self.top
             self.top = self.top.next
+            temp.next = None
  
 
     
