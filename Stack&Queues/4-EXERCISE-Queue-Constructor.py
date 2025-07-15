@@ -12,6 +12,7 @@ class Queue:
         
     def print_queue(self):
         temp = self.first
+        while temp is not None:
 
 
 
