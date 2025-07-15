@@ -11,6 +11,7 @@ class Queue:
         self.length = 1
         
     def print_queue(self):
+        temp = self.first
 
 
 
