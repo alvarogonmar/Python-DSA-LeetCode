@@ -6,6 +6,7 @@ class Node:
 class Queue:
     def __init__(self, value):
         new_node = Node(value)
+        self.first = new_node
 
 
 
