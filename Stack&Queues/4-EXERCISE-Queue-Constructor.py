@@ -4,6 +4,7 @@ class Node:
         self.next = None
         
 class Queue:
+    def __init__(self, value):
 
 
 
