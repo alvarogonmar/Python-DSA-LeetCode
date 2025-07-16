@@ -36,6 +36,7 @@ class Queue:
             self.first = None
             self.last = None
         else:
+            self.first = self.first.next
 
 
  
