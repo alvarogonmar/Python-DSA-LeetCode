@@ -18,6 +18,7 @@ class Queue:
             temp = temp.next
         
     def enqueue(self, value):
+        new_node = Node(value)
 
         
 
