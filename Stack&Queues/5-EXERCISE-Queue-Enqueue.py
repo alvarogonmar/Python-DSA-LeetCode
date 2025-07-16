@@ -17,6 +17,7 @@ class Queue:
             print(temp.value)
             temp = temp.next
         
+    def enqueue(self, value):
 
         
 
