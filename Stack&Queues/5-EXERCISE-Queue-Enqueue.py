@@ -21,6 +21,7 @@ class Queue:
         new_node = Node(value)
         if self.length == 0:
             self.first = new_node
+            self.last = new_node
 
         
 
