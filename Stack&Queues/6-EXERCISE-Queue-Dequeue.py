@@ -29,6 +29,7 @@ class Queue:
         return True
 
     def dequeue(self):
+        if self.length == 0:
 
 
  
