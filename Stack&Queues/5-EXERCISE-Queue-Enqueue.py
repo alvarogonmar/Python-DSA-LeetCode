@@ -22,6 +22,7 @@ class Queue:
         if self.length == 0:
             self.first = new_node
             self.last = new_node
+        else:
 
         
 
