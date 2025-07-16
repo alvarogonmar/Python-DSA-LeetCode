@@ -19,6 +19,8 @@ class Queue:
         
     def enqueue(self, value):
         new_node = Node(value)
+        if self.length == 0:
+            self.first = new_node
 
         
 
