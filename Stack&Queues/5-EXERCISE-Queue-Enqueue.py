@@ -29,7 +29,7 @@ class Queue:
 
 
 
-my_queue = Queue(1)
+
 
 print('Queue before enqueue(2):')
 my_queue.print_queue()
