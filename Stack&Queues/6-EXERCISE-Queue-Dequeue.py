@@ -33,6 +33,7 @@ class Queue:
             return None
         temp = self.first
         if self.length == 1:
+            self.first = None
 
 
  
