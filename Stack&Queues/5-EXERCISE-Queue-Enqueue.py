@@ -24,6 +24,7 @@ class Queue:
             self.last = new_node
         else:
             self.last.next = new_node
+            self.last = new_node
 
         
 
