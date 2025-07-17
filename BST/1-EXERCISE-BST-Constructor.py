@@ -22,8 +22,7 @@ class Node:
         
 class BinarySearchTree: 
     def __init__(self):
-
-
+        self.root = None
 
 
 my_tree = BinarySearchTree()
