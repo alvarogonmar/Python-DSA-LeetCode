@@ -38,7 +38,7 @@ class Queue:
         else:
             self.first = self.first.next
             temp.next = None
-
+        self.length -= 1
 
  
 
