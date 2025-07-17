@@ -21,6 +21,7 @@ class Node:
         self.right = None
         
 class BinarySearchTree: 
+    def __init__(self):
 
 
 
