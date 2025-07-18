@@ -10,6 +10,7 @@ class BinarySearchTree:
         self.root = None
 
     def insert(self, value):
+        new_node = Node(value)
 
 
 
