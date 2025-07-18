@@ -18,6 +18,7 @@ class BinarySearchTree:
         while (True):
             if new_node.value == temp.value:
                 return False
+            if new_node.value < temp.value:
 
 
 
