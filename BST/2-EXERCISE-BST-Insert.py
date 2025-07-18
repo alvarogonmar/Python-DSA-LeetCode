@@ -16,6 +16,7 @@ class BinarySearchTree:
             return True
         temp = self.root
         while (True):
+            if new_node.value == temp.value:
 
 
 
