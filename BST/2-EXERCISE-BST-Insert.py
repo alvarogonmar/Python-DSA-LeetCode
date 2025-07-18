@@ -14,6 +14,7 @@ class BinarySearchTree:
         if self.root is None:
             self.root = new_node
             return True
+        temp = self.root
 
 
 
