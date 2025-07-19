@@ -21,6 +21,8 @@ class BinarySearchTree:
             if new_node.value < temp.value:
                 if temp.left is None:
                     temp.left = new_node
+                    return True
+
 
 
 
