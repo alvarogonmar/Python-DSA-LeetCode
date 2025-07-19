@@ -23,6 +23,7 @@ class BinarySearchTree:
                     temp.left = new_node
                     return True
                 temp = temp.left
+            else:
 
 
 
