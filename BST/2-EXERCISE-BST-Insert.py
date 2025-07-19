@@ -24,6 +24,7 @@ class BinarySearchTree:
                     return True
                 temp = temp.left
             else:
+                if temp.right is None:
 
 
 
