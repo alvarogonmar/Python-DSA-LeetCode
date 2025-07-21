@@ -3,6 +3,7 @@ class HashTable:
         self.data_map = [None] * size
       
     def __hash(self, key):
+        my_hash = 0
 
 
         
