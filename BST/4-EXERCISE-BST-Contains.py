@@ -38,7 +38,7 @@ class BinarySearchTree:
                 temp = temp.right
             else:
                 return True
-
+        return False
 
     ## WRITE CONTAINS METHOD HERE ##
     #                              #
