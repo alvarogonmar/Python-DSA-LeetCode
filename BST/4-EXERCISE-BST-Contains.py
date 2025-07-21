@@ -30,6 +30,7 @@ class BinarySearchTree:
                 temp = temp.right
         
     def contains(self, value):
+        temp = self.root
 
 
     ## WRITE CONTAINS METHOD HERE ##
