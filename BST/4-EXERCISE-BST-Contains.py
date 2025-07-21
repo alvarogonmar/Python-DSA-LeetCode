@@ -36,6 +36,7 @@ class BinarySearchTree:
                 temp = temp.left
             elif value > temp.value:
                 temp = temp.right
+            else:
 
 
     ## WRITE CONTAINS METHOD HERE ##
