@@ -8,6 +8,8 @@ class HashTable:
             my_hash = (my_hash + ord(letter) * 23) % len(self.data_map)
         return my_hash  
 
+    def print_table(self):
+
 
         
 my_hash_table = HashTable()
