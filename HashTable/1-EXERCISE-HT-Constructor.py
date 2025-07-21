@@ -4,6 +4,7 @@ class HashTable:
       
     def __hash(self, key):
         my_hash = 0
+        for letter in key:
 
 
         
