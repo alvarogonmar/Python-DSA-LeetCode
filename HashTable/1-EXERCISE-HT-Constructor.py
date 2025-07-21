@@ -9,6 +9,7 @@ class HashTable:
         return my_hash  
 
     def print_table(self):
+        for i, val in enumerate(self.data_map): 
 
 
         
