@@ -13,6 +13,7 @@ class HashTable:
         return my_hash  
     
     def set_item(self, key, value):
+        index = self.__hash(key)
 
 
     
