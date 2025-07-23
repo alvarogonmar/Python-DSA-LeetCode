@@ -12,6 +12,7 @@ class HashTable:
             my_hash = (my_hash + ord(letter) * 23) % len(self.data_map)
         return my_hash  
     
+    def set_item(self, key, value):
 
 
     
