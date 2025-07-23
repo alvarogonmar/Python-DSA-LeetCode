@@ -18,6 +18,7 @@ class HashTable:
             self.data_map[index] = []
         self.data_map[index].append([key, value])
     
+    def get_item(self, key):
 
 
         
