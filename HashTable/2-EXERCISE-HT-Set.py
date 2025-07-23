@@ -14,6 +14,7 @@ class HashTable:
     
     def set_item(self, key, value):
         index = self.__hash(key)
+        if self.data_map[index] == None:
 
 
     
