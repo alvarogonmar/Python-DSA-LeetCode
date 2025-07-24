@@ -26,6 +26,7 @@ class HashTable:
                     return self.data_map[index][i][1]
         return None
 
+    def keys(self):
 
         
 
