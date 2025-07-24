@@ -27,6 +27,7 @@ class HashTable:
         return None
 
     def keys(self):
+        all_keys = []
 
         
 
