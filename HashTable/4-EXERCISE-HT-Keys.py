@@ -30,6 +30,7 @@ class HashTable:
         all_keys = []
         for i in range(len(self.data_map)):
             if self.data_map[i] is not None:
+                for j in range(len(self.data_map[i])):
 
         
 
