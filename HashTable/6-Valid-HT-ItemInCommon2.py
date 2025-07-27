@@ -4,6 +4,7 @@ def item_in_common(list1, list2):
         my_dict[i] = True
 
     for j in list2:
+        if j in my_dict:
 
 
 
