@@ -7,6 +7,7 @@ class Graph:
             print(vertex, ':', self.adj_list[vertex])
 
     def add_vertex(self, vertex):
+        if vertex not in self.adj_list.keys():
 
 
 
