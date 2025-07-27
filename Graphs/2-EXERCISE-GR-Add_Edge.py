@@ -12,6 +12,7 @@ class Graph:
             return True
         return False
 
+    def add_edge(self, v1, v2):
 
 
 
