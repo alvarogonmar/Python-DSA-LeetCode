@@ -1,6 +1,7 @@
 def item_in_common(list1, list2):
     my_dict = {}
     for i in list1:
+        my_dict[i] = True
 
 
 
