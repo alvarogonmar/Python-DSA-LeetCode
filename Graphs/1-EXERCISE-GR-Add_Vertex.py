@@ -9,6 +9,7 @@ class Graph:
     def add_vertex(self, vertex):
         if vertex not in self.adj_list.keys():
             self.adj_list[vertex] = []
+            return True
 
 
 
