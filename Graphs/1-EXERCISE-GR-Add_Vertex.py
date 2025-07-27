@@ -10,7 +10,7 @@ class Graph:
         if vertex not in self.adj_list.keys():
             self.adj_list[vertex] = []
             return True
-
+        return False
 
 
 
