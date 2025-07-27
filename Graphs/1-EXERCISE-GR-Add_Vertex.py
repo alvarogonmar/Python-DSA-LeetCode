@@ -3,6 +3,7 @@ class Graph:
         self.adj_list = {}
 
     def print_graph(self):
+        for vertex in self.adj_list:
 
 
 
