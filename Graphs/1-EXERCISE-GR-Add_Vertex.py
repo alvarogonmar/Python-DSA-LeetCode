@@ -4,6 +4,7 @@ class Graph:
 
     def print_graph(self):
         for vertex in self.adj_list:
+            print(vertex, ':', self.adj_list[vertex])
 
 
 
