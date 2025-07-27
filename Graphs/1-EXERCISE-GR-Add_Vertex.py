@@ -6,6 +6,8 @@ class Graph:
         for vertex in self.adj_list:
             print(vertex, ':', self.adj_list[vertex])
 
+    def add_vertex(self, vertex):
+
 
 
 
