@@ -2,6 +2,8 @@ class Graph:
     def __init__(self):
         self.adj_list = {}
 
+    def print_graph(self):
+
 
 
 
