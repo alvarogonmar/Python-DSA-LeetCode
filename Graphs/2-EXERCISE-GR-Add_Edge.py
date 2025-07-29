@@ -13,6 +13,8 @@ class Graph:
         return False
 
     def add_edge(self, v1, v2):
+        if v1 in self.adj_list.keys() and v2 in self.adj_list.keys():
+
 
 
 
