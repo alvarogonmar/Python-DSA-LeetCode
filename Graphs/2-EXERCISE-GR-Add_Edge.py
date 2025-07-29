@@ -17,7 +17,7 @@ class Graph:
             self.adj_list[v1].append(v2)
             self.adj_list[v2].append(v1)
             return True
-
+        return False
 
 
 
