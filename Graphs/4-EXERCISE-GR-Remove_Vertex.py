@@ -29,6 +29,7 @@ class Graph:
             return True
         return False
 
+    def remove_vertex(self, vertex):
 
 
 
