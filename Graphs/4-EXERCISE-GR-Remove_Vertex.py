@@ -30,6 +30,7 @@ class Graph:
         return False
 
     def remove_vertex(self, vertex):
+        if vertex in self.adj_list.keys():
 
 
 
