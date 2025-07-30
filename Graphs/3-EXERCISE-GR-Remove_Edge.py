@@ -25,7 +25,8 @@ class Graph:
                 self.adj_list[v1].remove(v2)
                 self.adj_list[v2].remove(v1)
             except ValueError:
-    
+                pass
+  
 
 
 
