@@ -27,7 +27,7 @@ class Graph:
             except ValueError:
                 pass
             return True
-  
+        return False     
 
 
 
