@@ -15,6 +15,7 @@ class MaxHeap:
         self.heap[index1], self.heap[index2] = self.heap[index2], self.heap[index1]
 
     def insert(self, value):
+        self.heap.append(value)
 
 
 
