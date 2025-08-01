@@ -16,6 +16,7 @@ class MaxHeap:
 
     def insert(self, value):
         self.heap.append(value)
+        current = len(self.heap) - 1
 
 
 
