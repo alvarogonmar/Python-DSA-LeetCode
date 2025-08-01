@@ -18,6 +18,8 @@ class MaxHeap:
         self.heap.append(value)
         current = len(self.heap) - 1
 
+        while current > 0 and self.heap[current] > self.heap[self._parent(current)]:
+
 
 
 
