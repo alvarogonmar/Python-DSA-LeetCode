@@ -51,6 +51,7 @@ class MaxHeap:
         
         max_value = self.heap[0]
         self.heap[0] = self.heap.pop()
+        self._sink_down(0)
 
 
 
