@@ -47,6 +47,7 @@ class MaxHeap:
         if len(self.heap) == 0:
             return None
         if len(self.heap) == 1:
+            return self.heap.pop()
 
 
 
