@@ -50,6 +50,7 @@ class MaxHeap:
             return self.heap.pop()
         
         max_value = self.heap[0]
+        self.heap[0] = self.heap.pop()
 
 
 
