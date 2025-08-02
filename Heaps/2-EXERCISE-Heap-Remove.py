@@ -48,6 +48,8 @@ class MaxHeap:
             return None
         if len(self.heap) == 1:
             return self.heap.pop()
+        
+        max_value = self.heap[0]
 
 
 
