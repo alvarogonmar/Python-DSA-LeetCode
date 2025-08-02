@@ -44,6 +44,7 @@ class MaxHeap:
                 return
                        
     def remove(self):
+        if len(self.heap) == 0:
 
 
 
