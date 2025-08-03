@@ -33,6 +33,8 @@ class MaxHeap:
                     self.heap[left_index] > self.heap[max_index]):
                 max_index = left_index
 
+            if (right_index < len(self.heap) and 
+
                        
     def remove(self):
         if len(self.heap) == 0:
