@@ -29,6 +29,8 @@ class MaxHeap:
             left_index = self._left_child(index)
             right_index = self._right_child(index)
 
+            if (left_index < len(self.heap) and 
+
                        
     def remove(self):
         if len(self.heap) == 0:
