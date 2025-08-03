@@ -26,6 +26,7 @@ class MaxHeap:
     def _sink_down(self, index):
         max_index = index
         while True:
+            left_index = self._left_child(index)
 
                        
     def remove(self):
