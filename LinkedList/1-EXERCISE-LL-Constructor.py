@@ -18,8 +18,8 @@ class Node:
         self.value = value; # Valor del nodo
         self.next = None; # Siguiente nodo es None al inicio
         
-class LinkedList:
-    def __init__(self, value):
+class LinkedList: 
+    def __init__(self, value): # Funcion para crear una lista enlazada
         new_node = Node(value);
         self.head = new_node;
         self.tail = new_node;
