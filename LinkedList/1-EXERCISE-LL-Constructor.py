@@ -15,7 +15,7 @@
     ###############################
 class Node:
     def __init__(self, value): # Funcion para crear un nodo
-        self.value = value;
+        self.value = value; # Valor del nodo
         self.next = None;
         
 class LinkedList:
