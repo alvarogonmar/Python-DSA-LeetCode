@@ -21,7 +21,7 @@ class Node:
 class LinkedList: 
     def __init__(self, value): # Funcion para crear una lista enlazada
         new_node = Node(value); # Crear un nuevo nodo con el valor dado
-        self.head = new_node;
+        self.head = new_node; # La cabeza de la lista es el nuevo nodo
         self.tail = new_node;
         self.length = 1;
 
