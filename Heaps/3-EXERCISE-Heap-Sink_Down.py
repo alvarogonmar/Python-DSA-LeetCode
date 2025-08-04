@@ -39,6 +39,7 @@ class MaxHeap:
 
             if max_index != index:
                 self._swap(index, max_index)
+                index = max_index
 
                        
     def remove(self):
