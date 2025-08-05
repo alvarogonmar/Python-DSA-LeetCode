@@ -1,5 +1,5 @@
 def funcThree(): # Function that calls itself
-    print('Three')
+    print('Three') # Base case is not needed here, but it could be added for a real recursive function
 
 def funcTwo():
     funcThree()
