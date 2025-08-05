@@ -1,4 +1,4 @@
-def funcThree():
+def funcThree(): # Function that calls itself
     print('Three')
 
 def funcTwo():
