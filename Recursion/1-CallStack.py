@@ -3,7 +3,7 @@ def funcThree(): # Function that calls itself
 
 def funcTwo(): # Function that calls another function
     funcThree() # Call to funcThree, which will print 'Three'
-    print('Two')
+    print('Two') # This will print 'Two' after 'Three'
 
 def funcOne():
     funcTwo()
