@@ -10,5 +10,5 @@ def funcOne(): # Function that calls funcTwo
     print('One') # This will print 'One' after 'Two' and 'Three'
 
 
-funcOne()
+funcOne() # This will start the chain of function calls and print 'One', 'Two', and 'Three' in that order
 
