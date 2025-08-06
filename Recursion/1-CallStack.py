@@ -5,7 +5,7 @@ def funcTwo(): # Function that calls another function
     funcThree() # Call to funcThree, which will print 'Three'
     print('Two') # This will print 'Two' after 'Three'
 
-def funcOne():
+def funcOne(): # Function that calls funcTwo
     funcTwo()
     print('One')
 
