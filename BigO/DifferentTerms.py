@@ -5,4 +5,4 @@ def print_items(a,b): # O(a + b)
     for j in range(b):  # for loop runs b times
         print(j) # printing takes O(1) time
 
-print_items(1, 10)
+print_items(1, 10) # This will print numbers from 0 to 9 and then 0 to 9 again
