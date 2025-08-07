@@ -31,6 +31,7 @@ class BinarySearchTree:
 
     def contains(self, value):
         temp = self.root
+        while (temp is not None):
 
         
     ## WRITE R_CONTAINS METHODS HERE ##
