@@ -47,6 +47,7 @@ class BinarySearchTree:
             return True
         if value < current_node.value:
             return self.__r_contains(current_node.left, value)
+        if value > current_node.value:
 
         
 
