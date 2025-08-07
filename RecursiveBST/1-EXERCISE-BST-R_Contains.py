@@ -45,6 +45,7 @@ class BinarySearchTree:
             return False
         if value == current_node.value:
             return True
+        if value < current_node.value:
 
         
 
