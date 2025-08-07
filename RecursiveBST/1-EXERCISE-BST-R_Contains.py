@@ -33,6 +33,7 @@ class BinarySearchTree:
         temp = self.root
         while (temp is not None):
             if value < temp.value:
+                temp = temp.left
 
         
     ## WRITE R_CONTAINS METHODS HERE ##
