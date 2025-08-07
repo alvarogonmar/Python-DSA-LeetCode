@@ -35,6 +35,7 @@ class BinarySearchTree:
             if value < temp.value:
                 temp = temp.left
             elif value > temp.value:
+                temp = temp.right
 
         
     ## WRITE R_CONTAINS METHODS HERE ##
