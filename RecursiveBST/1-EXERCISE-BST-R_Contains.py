@@ -41,6 +41,7 @@ class BinarySearchTree:
         return False
         
     def __r_contains(self, current_node, value):
+        if current_node == None:
 
         
 
