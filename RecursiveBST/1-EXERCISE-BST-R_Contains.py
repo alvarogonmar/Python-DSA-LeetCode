@@ -29,6 +29,7 @@ class BinarySearchTree:
                     return True
                 temp = temp.right
 
+    def contains(self, value):
 
         
     ## WRITE R_CONTAINS METHODS HERE ##
