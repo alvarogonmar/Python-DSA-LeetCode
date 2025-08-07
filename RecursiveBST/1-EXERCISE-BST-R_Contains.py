@@ -40,12 +40,8 @@ class BinarySearchTree:
                 return True
         return False
         
-    ## WRITE R_CONTAINS METHODS HERE ##
-    #                                 #
-    #                                 #
-    #                                 #
-    #                                 #
-    ###################################
+    def __r_contains(self, current_node, value):
+
         
 
 
