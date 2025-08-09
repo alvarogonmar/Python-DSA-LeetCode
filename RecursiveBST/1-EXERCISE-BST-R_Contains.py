@@ -51,7 +51,7 @@ class BinarySearchTree:
             return self.__r_contains(current_node.right, value)
         
     def r_contains(self, value):
-
+        return self.__r_contains(self.root, value)
         
 
 
