@@ -55,6 +55,7 @@ class BinarySearchTree:
         return self.__r_contains(self.root, value)
 
                   
+    def __r_insert(self, current_node, value):
 
 
 
