@@ -65,6 +65,7 @@ class BinarySearchTree:
         return current_node
     
     def r_insert(self, value):
+        if self.root == None:
 
 
 
