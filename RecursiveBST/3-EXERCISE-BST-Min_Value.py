@@ -41,6 +41,7 @@ class BinarySearchTree:
         return False
     
     
+    def min_value(self, current_node):
 
         
         
