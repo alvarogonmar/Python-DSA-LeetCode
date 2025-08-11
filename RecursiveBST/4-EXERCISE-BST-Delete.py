@@ -83,6 +83,7 @@ class BinarySearchTree:
             return None
         if value < current_node.value:
             current_node.left = self.__delete_node(current_node.left, value)
+        elif value > current_node.value: 
 
 
 
