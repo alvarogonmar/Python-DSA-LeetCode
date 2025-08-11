@@ -85,6 +85,7 @@ class BinarySearchTree:
             current_node.left = self.__delete_node(current_node.left, value)
         elif value > current_node.value: 
             current_node.right = self.__delete_node(current_node.right, value)
+        else:
 
 
 
