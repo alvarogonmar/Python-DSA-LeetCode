@@ -79,6 +79,7 @@ class BinarySearchTree:
         return current_node.value 
 
     def __delete_node(self, current_node, value):
+        if current_node == None: 
 
 
 
