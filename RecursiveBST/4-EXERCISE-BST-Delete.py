@@ -91,6 +91,7 @@ class BinarySearchTree:
             elif current_node.left == None:
                 current_node = current_node.right
             elif current_node.right == None:
+                current_node = current_node.left
 
 
 
