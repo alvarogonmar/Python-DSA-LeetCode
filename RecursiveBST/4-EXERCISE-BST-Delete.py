@@ -88,6 +88,7 @@ class BinarySearchTree:
         else:
             if current_node.left == None and current_node.right == None:
                 return None
+            elif current_node.left == None:
 
 
 
