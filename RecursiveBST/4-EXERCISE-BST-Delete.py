@@ -2,8 +2,8 @@ class Node:
     def __init__(self, value):
         self.value = value # The value of the node
         self.left = None # Pointer to the left child node
-        self.right = None
-        
+        self.right = None # Pointer to the right child node
+
 
 class BinarySearchTree:
     def __init__(self):
