@@ -99,6 +99,7 @@ class BinarySearchTree:
         return current_node
     
     def delete_node(self, value):
+        self.root = self.__delete_node(self.root, value)
 
 
 
