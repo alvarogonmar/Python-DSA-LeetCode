@@ -1,7 +1,7 @@
 class Node:
     def __init__(self, value):
         self.value = value # The value of the node
-        self.left = None
+        self.left = None # Pointer to the left child node
         self.right = None
         
 
