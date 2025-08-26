@@ -14,7 +14,7 @@ class BinarySearchTree: # Binary Search Tree class
         new_node = Node(value) # Create a new node
         if self.root is None: # If the tree is empty
             self.root = new_node # Set the root to the new node
-            return True
+            return True # Indicate successful insertion
         temp = self.root
         while (True):
             if new_node.value == temp.value:
