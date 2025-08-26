@@ -19,7 +19,7 @@ class BinarySearchTree: # Binary Search Tree class
         while (True): # Loop indefinitely until a return statement is hit
             if new_node.value == temp.value: # If the value already exists
                 return False # Do not insert duplicates
-            if new_node.value < temp.value:
+            if new_node.value < temp.value: # if the new value is less than the current node's value
                 if temp.left is None:
                     temp.left = new_node
                     return True
