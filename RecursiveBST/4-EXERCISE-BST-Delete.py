@@ -15,7 +15,7 @@ class BinarySearchTree: # Binary Search Tree class
         if self.root is None: # If the tree is empty
             self.root = new_node # Set the root to the new node
             return True # Indicate successful insertion
-        temp = self.root
+        temp = self.root # Set a temporary pointer to the root
         while (True):
             if new_node.value == temp.value:
                 return False
