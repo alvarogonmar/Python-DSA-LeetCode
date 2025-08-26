@@ -16,7 +16,7 @@ class BinarySearchTree: # Binary Search Tree class
             self.root = new_node # Set the root to the new node
             return True # Indicate successful insertion
         temp = self.root # Set a temporary pointer to the root
-        while (True):
+        while (True): # Loop indefinitely until a return statement is hit
             if new_node.value == temp.value:
                 return False
             if new_node.value < temp.value:
