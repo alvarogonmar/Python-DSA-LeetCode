@@ -20,7 +20,7 @@ class BinarySearchTree: # Binary Search Tree class
             if new_node.value == temp.value: # If the value already exists
                 return False # Do not insert duplicates
             if new_node.value < temp.value: # if the new value is less than the current node's value
-                if temp.left is None:
+                if temp.left is None: # If there is no left child
                     temp.left = new_node
                     return True
                 temp = temp.left
