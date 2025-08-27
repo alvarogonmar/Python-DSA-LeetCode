@@ -27,7 +27,7 @@ class BinarySearchTree: # Binary Search Tree class
             else:  # if the new value is greater than the current node's value
                 if temp.right is None: # If there is no right child
                     temp.right = new_node # insert the new node as the right child
-                    return True
+                    return True # Indicate successful insertion
                 temp = temp.right
 
 
