@@ -36,8 +36,8 @@ class BinarySearchTree: # Binary Search Tree class
         while (temp is not None): # while the temporary pointer is not None
             if value < temp.value: # If the value is less than the current node's value
                 temp = temp.left # Move the temporary pointer to the left child
-            elif value > temp.value:
-                temp = temp.right
+            elif value > temp.value: # if what is greater than the current node's value
+                temp = temp.right 
             else:
                 return True
         return False
