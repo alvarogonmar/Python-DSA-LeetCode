@@ -28,7 +28,7 @@ class BinarySearchTree: # Binary Search Tree class
                 if temp.right is None: # If there is no right child
                     temp.right = new_node # insert the new node as the right child
                     return True # Indicate successful insertion
-                temp = temp.right
+                temp = temp.right # Move the temporary pointer to the right child
 
 
     def contains(self, value):
