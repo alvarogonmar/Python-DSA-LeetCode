@@ -31,7 +31,7 @@ class BinarySearchTree: # Binary Search Tree class
                 temp = temp.right # Move the temporary pointer to the right child
 
 
-    def contains(self, value):
+    def contains(self, value): # Check if a value exists in the BST
         temp = self.root
         while (temp is not None):
             if value < temp.value:
