@@ -32,7 +32,7 @@ class BinarySearchTree: # Binary Search Tree class
 
 
     def contains(self, value): # Check if a value exists in the BST
-        temp = self.root
+        temp = self.root # Set a temporary pointer to the root
         while (temp is not None):
             if value < temp.value:
                 temp = temp.left
