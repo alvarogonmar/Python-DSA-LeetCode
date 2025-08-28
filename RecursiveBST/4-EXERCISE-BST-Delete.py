@@ -44,7 +44,7 @@ class BinarySearchTree: # Binary Search Tree class
  
 
     def __r_contains(self, current_node, value): # Recursive helper method for contains
-        if current_node == None: 
+        if current_node == None: # If the current node is None
             return False      
         if value == current_node.value:
             return True 
