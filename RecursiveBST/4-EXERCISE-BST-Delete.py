@@ -47,7 +47,7 @@ class BinarySearchTree: # Binary Search Tree class
         if current_node == None: # If the current node is None
             return False  # The value does not exist in the BST
         if value == current_node.value: # if the value is equal to the current node's value
-            return True 
+            return True # indicate the value exists in the BST
         if value < current_node.value:
             return self.__r_contains(current_node.left, value) 
         if value > current_node.value:
