@@ -37,7 +37,7 @@ class BinarySearchTree: # Binary Search Tree class
             if value < temp.value: # If the value is less than the current node's value
                 temp = temp.left # Move the temporary pointer to the left child
             elif value > temp.value: # if what is greater than the current node's value
-                temp = temp.right 
+                temp = temp.right # Move the temporary pointer to the right child
             else:
                 return True
         return False
