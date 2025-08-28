@@ -39,7 +39,7 @@ class BinarySearchTree: # Binary Search Tree class
             elif value > temp.value: # if what is greater than the current node's value
                 temp = temp.right # Move the temporary pointer to the right child
             else: # If the value is equal to the current node's value
-                return True
+                return True # indicate the value exists in the BST
         return False
  
 
