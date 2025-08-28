@@ -12,6 +12,7 @@ def bubble_sort(my_list):
             if my_list[j] > my_list[j+1]:
                 temp = my_list[j]
                 my_list[j] = my_list[j+1]
+                my_list[j+1] = temp
 
 
 
