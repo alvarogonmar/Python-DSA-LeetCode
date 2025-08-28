@@ -7,6 +7,7 @@
     
 
 def bubble_sort(my_list):
+    for i in range(len(my_list) - 1, 0, -1):
 
 
 
