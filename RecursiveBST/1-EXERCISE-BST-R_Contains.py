@@ -6,7 +6,7 @@ class Node:
         
 
 class BinarySearchTree:  # Binary Search Tree class
-    def __init__(self):
+    def __init__(self): # Constructor for the Binary Search Tree
         self.root = None
 
     def insert(self, value):
