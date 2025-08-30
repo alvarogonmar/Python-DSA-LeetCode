@@ -5,7 +5,7 @@ class Node:
         self.right = None
         
 
-class BinarySearchTree:
+class BinarySearchTree:  # Binary Search Tree class
     def __init__(self):
         self.root = None
 
