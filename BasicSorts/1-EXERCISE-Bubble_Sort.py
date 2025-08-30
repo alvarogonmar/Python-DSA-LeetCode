@@ -11,7 +11,7 @@ def bubble_sort(my_list): # def inicializadora de bubblesort
         for j in range(i): # for j in range from 0 to i
             if my_list[j] > my_list[j+1]: # if the current element is greater than the next element
                 temp = my_list[j] # swap the elements
-                my_list[j] = my_list[j+1]
+                my_list[j] = my_list[j+1] # move the next element to the current position
                 my_list[j+1] = temp
     return my_list
 
