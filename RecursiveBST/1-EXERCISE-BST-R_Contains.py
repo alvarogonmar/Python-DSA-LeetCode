@@ -9,7 +9,7 @@ class BinarySearchTree:  # Binary Search Tree class
     def __init__(self): # Constructor for the Binary Search Tree
         self.root = None # Initialize the root to None
 
-    def insert(self, value):
+    def insert(self, value): # Insert a value into the BST
         new_node = Node(value)
         if self.root is None:
             self.root = new_node
