@@ -12,7 +12,7 @@ class BinarySearchTree:  # Binary Search Tree class
     def insert(self, value): # Insert a value into the BST
         new_node = Node(value) # Create a new node
         if self.root is None: # if the tree is empty
-            self.root = new_node
+            self.root = new_node # Set the root to the new node
             return True
         temp = self.root
         while (True):
