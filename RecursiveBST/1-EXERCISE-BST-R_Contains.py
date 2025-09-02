@@ -20,7 +20,7 @@ class BinarySearchTree:  # Binary Search Tree class
                 return False # Do not insert duplicates
             if new_node.value < temp.value: # if the new value is less than the current node's value
                 if temp.left is None: # if the left child is None
-                    temp.left = new_node
+                    temp.left = new_node # Insert the new node
                     return True
                 temp = temp.left
             else: 
