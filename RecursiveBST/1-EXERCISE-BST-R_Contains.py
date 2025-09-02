@@ -22,8 +22,8 @@ class BinarySearchTree:  # Binary Search Tree class
                 if temp.left is None: # if the left child is None
                     temp.left = new_node # Insert the new node
                     return True # Indicate successful insertion
-                temp = temp.left
-            else: 
+                temp = temp.left # Move the pointer to the left child
+            else:
                 if temp.right is None:
                     temp.right = new_node
                     return True
