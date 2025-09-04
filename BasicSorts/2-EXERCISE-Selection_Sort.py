@@ -13,6 +13,7 @@ def selection_sort(my_list):
                 min_index = j
         if min_index != i:
             temp = my_list[i]
+            my_list[i] = my_list[min_index]
 
 
 
