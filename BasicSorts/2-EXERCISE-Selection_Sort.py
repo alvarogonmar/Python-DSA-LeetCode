@@ -12,6 +12,7 @@ def selection_sort(my_list):
             if my_list[j] < my_list[min_index]:
                 min_index = j
         if min_index != i:
+            temp = my_list[i]
 
 
 
