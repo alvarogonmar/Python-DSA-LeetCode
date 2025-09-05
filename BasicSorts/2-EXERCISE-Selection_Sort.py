@@ -15,6 +15,7 @@ def selection_sort(my_list):
             temp = my_list[i]
             my_list[i] = my_list[min_index]
             my_list[min_index] = temp
+    return my_list
 
 
 
