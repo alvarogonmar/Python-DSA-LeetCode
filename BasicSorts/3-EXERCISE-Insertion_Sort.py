@@ -10,6 +10,8 @@ def insertion_sort(my_list):
         temp = my_list[i]
         j = i - 1
 
+        while temp < my_list[j] and j > -1:
+
 
 
 print(insertion_sort([4,2,6,5,1,3]))
