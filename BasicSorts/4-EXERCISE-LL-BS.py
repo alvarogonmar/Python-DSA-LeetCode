@@ -40,6 +40,7 @@ class LinkedList:
         sorted_until = None
         
         while sorted_until != self.head.next:
+            current_node = self.head
 
 
 
