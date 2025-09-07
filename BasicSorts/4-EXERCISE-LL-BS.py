@@ -44,6 +44,7 @@ class LinkedList:
             while current_node.next != sorted_until:
                 current_node_next = current_node.next
                 if current_node.value > current_node_next.value:
+                    current_node.value, current_node_next.value = current_node_next.value, current_node.value
 
 
 
