@@ -38,6 +38,8 @@ class LinkedList:
             return
     
         sorted_until = None
+        
+        while sorted_until != self.head.next:
 
 
 
