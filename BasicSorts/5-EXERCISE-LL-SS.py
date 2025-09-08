@@ -51,6 +51,7 @@ class LinkedList:
         #   |   swapped (not the nodes themselves).             |
         #   | - Moves to the next node and repeats the process. |
         #   +===================================================+
+        if self.length < 2:
 
 
 
