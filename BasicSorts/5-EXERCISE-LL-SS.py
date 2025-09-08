@@ -52,6 +52,7 @@ class LinkedList:
         #   | - Moves to the next node and repeats the process. |
         #   +===================================================+
         if self.length < 2:
+            return
 
 
 
