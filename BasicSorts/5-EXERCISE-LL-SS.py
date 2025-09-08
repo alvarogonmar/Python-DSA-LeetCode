@@ -53,6 +53,7 @@ class LinkedList:
         #   +===================================================+
         if self.length < 2:
             return
+        current = self.head
 
 
 
