@@ -43,7 +43,7 @@ class LinkedList:
         sorted_list_head.next = None
         
         while unsorted_list_head is not None:
-
+            current = unsorted_list_head
 
 
 
