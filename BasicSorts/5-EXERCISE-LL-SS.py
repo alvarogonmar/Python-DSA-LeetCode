@@ -55,6 +55,7 @@ class LinkedList:
             return
         current = self.head
         while current.next is not None:
+            smallest = current
 
 
 
