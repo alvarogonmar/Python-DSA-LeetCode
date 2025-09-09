@@ -41,6 +41,8 @@ class LinkedList:
         sorted_list_head = self.head
         unsorted_list_head = self.head.next
         sorted_list_head.next = None
+        
+        while unsorted_list_head is not None:
 
 
 
