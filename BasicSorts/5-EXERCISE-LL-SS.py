@@ -60,6 +60,7 @@ class LinkedList:
             while inner_current is not None:
                 if inner_current.value < smallest.value:
                     smallest = inner_current
+                inner_current = inner_current.next
 
 
 
