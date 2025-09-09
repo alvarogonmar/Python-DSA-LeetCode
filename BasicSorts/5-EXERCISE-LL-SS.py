@@ -63,6 +63,7 @@ class LinkedList:
                 inner_current = inner_current.next
             
             if smallest != current:
+                current.value, smallest.value = smallest.value, current.value
 
 
 
