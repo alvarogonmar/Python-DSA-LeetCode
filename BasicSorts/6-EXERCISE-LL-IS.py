@@ -39,6 +39,7 @@ class LinkedList:
             return
         
         sorted_list_head = self.head
+        unsorted_list_head = self.head.next
 
 
 
