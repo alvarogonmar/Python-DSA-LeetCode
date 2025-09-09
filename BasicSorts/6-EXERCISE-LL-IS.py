@@ -36,6 +36,7 @@ class LinkedList:
 
     def insertion_sort(self):
         if self.length < 2:
+            return
 
 
 
