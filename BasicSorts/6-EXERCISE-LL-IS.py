@@ -54,6 +54,7 @@ class LinkedList:
                 while search_pointer.next is not None and current.value > search_pointer.next.value:
                     search_pointer = search_pointer.next
                 current.next = search_pointer.next
+                search_pointer.next = current
 
 
 
