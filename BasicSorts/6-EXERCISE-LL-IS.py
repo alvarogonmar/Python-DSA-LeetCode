@@ -45,6 +45,8 @@ class LinkedList:
         while unsorted_list_head is not None:
             current = unsorted_list_head
             unsorted_list_head = unsorted_list_head.next
+            
+            if current.value < sorted_list_head.value:
 
 
 
