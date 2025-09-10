@@ -48,6 +48,7 @@ class LinkedList:
             
             if current.value < sorted_list_head.value:
                 current.next = sorted_list_head
+                sorted_list_head = current
 
 
 
