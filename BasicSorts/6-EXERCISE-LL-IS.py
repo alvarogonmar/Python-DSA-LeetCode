@@ -47,6 +47,7 @@ class LinkedList:
             unsorted_list_head = unsorted_list_head.next
             
             if current.value < sorted_list_head.value:
+                current.next = sorted_list_head
 
 
 
