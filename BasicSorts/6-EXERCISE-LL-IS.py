@@ -55,6 +55,8 @@ class LinkedList:
                     search_pointer = search_pointer.next
                 current.next = search_pointer.next
                 search_pointer.next = current
+        
+        self.head = sorted_list_head
 
 
 
