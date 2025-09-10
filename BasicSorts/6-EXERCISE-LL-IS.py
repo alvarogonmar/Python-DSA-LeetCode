@@ -51,6 +51,7 @@ class LinkedList:
                 sorted_list_head = current
             else:
                 search_pointer = sorted_list_head
+                while search_pointer.next is not None and current.value > search_pointer.next.value:
 
 
 
