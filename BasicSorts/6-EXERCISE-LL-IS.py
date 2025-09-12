@@ -9,7 +9,7 @@ class LinkedList: # Singly Linked List
         new_node = Node(value) # Create the first node
         self.head = new_node # Head points to the first node
         self.tail = new_node # Tail also points to the first node
-        self.length = 1
+        self.length = 1 # Initialize length
 
     def print_list(self):
         temp = self.head
