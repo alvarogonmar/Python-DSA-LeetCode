@@ -8,7 +8,7 @@ class LinkedList: # Singly Linked List
     def __init__(self, value): # Initialize with head and tail pointers
         new_node = Node(value) # Create the first node
         self.head = new_node # Head points to the first node
-        self.tail = new_node
+        self.tail = new_node # Tail also points to the first node
         self.length = 1
 
     def print_list(self):
