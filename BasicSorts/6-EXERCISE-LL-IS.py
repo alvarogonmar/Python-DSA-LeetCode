@@ -57,6 +57,7 @@ class LinkedList:
                 search_pointer.next = current
         
         self.head = sorted_list_head
+        temp = self.head
 
 
 
