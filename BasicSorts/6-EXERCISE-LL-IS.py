@@ -59,6 +59,7 @@ class LinkedList:
         self.head = sorted_list_head
         temp = self.head
         while temp.next is not None:
+            temp = temp.next
 
 
 
