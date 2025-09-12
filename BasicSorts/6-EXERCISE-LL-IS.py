@@ -5,7 +5,7 @@ class Node:
         
 
 class LinkedList: # Singly Linked List
-    def __init__(self, value):
+    def __init__(self, value): # Initialize with head and tail pointers
         new_node = Node(value)
         self.head = new_node
         self.tail = new_node
