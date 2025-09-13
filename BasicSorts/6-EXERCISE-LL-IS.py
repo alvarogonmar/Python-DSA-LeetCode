@@ -20,7 +20,7 @@ class LinkedList: # Singly Linked List
     def append(self, value): # Append a new node to the end of the list
         new_node = Node(value) # Create a new node
         if self.head is None: # If the list is empty
-            self.head = new_node
+            self.head = new_node # Head points to the new node
             self.tail = new_node
         else:
             self.tail.next = new_node
