@@ -15,7 +15,7 @@ class LinkedList: # Singly Linked List
         temp = self.head # Start from the head
         while temp is not None: # Traverse until the end
             print(temp.value) # Print the current node's value
-            temp = temp.next
+            temp = temp.next # Move to the next node
         
     def append(self, value):
         new_node = Node(value)
