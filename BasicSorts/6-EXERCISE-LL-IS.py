@@ -23,7 +23,7 @@ class LinkedList: # Singly Linked List
             self.head = new_node # Head points to the new node
             self.tail = new_node # Tail also points to the new node
         else:
-            self.tail.next = new_node
+            self.tail.next = new_node # Link the current tail to the new node
             self.tail = new_node
         self.length += 1
 
