@@ -21,7 +21,7 @@ class LinkedList: # Singly Linked List
         new_node = Node(value) # Create a new node
         if self.head is None: # If the list is empty
             self.head = new_node # Head points to the new node
-            self.tail = new_node
+            self.tail = new_node # Tail also points to the new node
         else:
             self.tail.next = new_node
             self.tail = new_node
