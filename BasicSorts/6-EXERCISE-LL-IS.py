@@ -38,7 +38,7 @@ class LinkedList: # Singly Linked List
         if self.length < 2: # If the list has 0 or 1 node, it's already sorted
             return # No need to sort
         
-        sorted_list_head = self.head
+        sorted_list_head = self.head # Start with the first node as the sorted part
         unsorted_list_head = self.head.next
         sorted_list_head.next = None
         
