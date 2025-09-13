@@ -40,7 +40,7 @@ class LinkedList: # Singly Linked List
         
         sorted_list_head = self.head # Start with the first node as the sorted part
         unsorted_list_head = self.head.next
-        sorted_list_head.next = None
+        sorted_list_head.next = None # Detach the sorted part
         
         while unsorted_list_head is not None:
             current = unsorted_list_head
