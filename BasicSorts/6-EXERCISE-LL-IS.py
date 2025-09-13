@@ -34,7 +34,7 @@ class LinkedList: # Singly Linked List
     #                                  #
     ####################################
 
-    def insertion_sort(self):
+    def insertion_sort(self): # Insertion Sort for Linked List
         if self.length < 2:
             return
         
