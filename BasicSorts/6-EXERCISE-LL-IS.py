@@ -13,7 +13,7 @@ class LinkedList: # Singly Linked List
 
     def print_list(self): # Print all values in the list
         temp = self.head # Start from the head
-        while temp is not None:
+        while temp is not None: # Traverse until the end
             print(temp.value)
             temp = temp.next
         
