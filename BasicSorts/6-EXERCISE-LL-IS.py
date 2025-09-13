@@ -12,7 +12,7 @@ class LinkedList: # Singly Linked List
         self.length = 1 # Initialize length
 
     def print_list(self): # Print all values in the list
-        temp = self.head
+        temp = self.head # Start from the head
         while temp is not None:
             print(temp.value)
             temp = temp.next
