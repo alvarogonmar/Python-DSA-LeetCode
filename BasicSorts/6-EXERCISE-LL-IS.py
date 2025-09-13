@@ -11,7 +11,7 @@ class LinkedList: # Singly Linked List
         self.tail = new_node # Tail also points to the first node
         self.length = 1 # Initialize length
 
-    def print_list(self):
+    def print_list(self): # Print all values in the list
         temp = self.head
         while temp is not None:
             print(temp.value)
