@@ -18,7 +18,7 @@ class LinkedList: # Singly Linked List
             temp = temp.next # Move to the next node
         
     def append(self, value): # Append a new node to the end of the list
-        new_node = Node(value)
+        new_node = Node(value) # Create a new node
         if self.head is None:
             self.head = new_node
             self.tail = new_node
