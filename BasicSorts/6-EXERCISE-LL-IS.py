@@ -36,7 +36,7 @@ class LinkedList: # Singly Linked List
 
     def insertion_sort(self): # Insertion Sort for Linked List
         if self.length < 2: # If the list has 0 or 1 node, it's already sorted
-            return
+            return # No need to sort
         
         sorted_list_head = self.head
         unsorted_list_head = self.head.next
