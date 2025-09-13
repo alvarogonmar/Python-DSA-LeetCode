@@ -35,7 +35,7 @@ class LinkedList: # Singly Linked List
     ####################################
 
     def insertion_sort(self): # Insertion Sort for Linked List
-        if self.length < 2:
+        if self.length < 2: # If the list has 0 or 1 node, it's already sorted
             return
         
         sorted_list_head = self.head
