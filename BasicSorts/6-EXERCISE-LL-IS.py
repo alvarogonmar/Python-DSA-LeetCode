@@ -25,7 +25,7 @@ class LinkedList: # Singly Linked List
         else:
             self.tail.next = new_node # Link the current tail to the new node
             self.tail = new_node # Update the tail to the new node
-        self.length += 1
+        self.length += 1 # Increment the length
 
     # WRITE INSERTION_SORT METHOD HERE #
     #                                  #
