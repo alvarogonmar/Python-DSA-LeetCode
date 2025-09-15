@@ -42,7 +42,7 @@ class LinkedList: # Singly Linked List
         unsorted_list_head = self.head.next
         sorted_list_head.next = None # Detach the sorted part
         
-        while unsorted_list_head is not None:
+        while unsorted_list_head is not None: # While there are nodes in the unsorted part
             current = unsorted_list_head
             unsorted_list_head = unsorted_list_head.next
             
