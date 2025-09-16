@@ -14,6 +14,8 @@ def merge(list1, list2): # Merge function that merges two sorted lists
         if list1[i] < list2[j]:
             combined.append(list1[i])
             i += 1
+        else:
+            combined.append(list2[j])
 
 
 # MERGE REQUIRES TWO SORTED LISTS:
