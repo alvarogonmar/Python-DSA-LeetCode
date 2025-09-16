@@ -6,6 +6,7 @@
 #                             #
 ############################### 
 
+def merge(list1, list2): # Merge function that merges two sorted lists
 
 
 # MERGE REQUIRES TWO SORTED LISTS:
