@@ -9,6 +9,7 @@
 def merge(list1, list2): # Merge function that merges two sorted lists
     combined = []
     i = 0
+    j = 0
 
 
 # MERGE REQUIRES TWO SORTED LISTS:
