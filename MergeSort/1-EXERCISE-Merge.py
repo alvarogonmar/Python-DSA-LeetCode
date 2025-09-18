@@ -21,6 +21,7 @@ def merge(list1, list2): # Merge function that merges two sorted lists
     while i < len(list1):
         combined.append(list1[i])
         i += 1
+    while j < len(list2):
 
 
 # MERGE REQUIRES TWO SORTED LISTS:
