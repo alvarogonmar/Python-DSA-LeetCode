@@ -18,6 +18,8 @@ def merge(array1, array2):
         combined.append(array2[j])
         j += 1
 
+    return combined
+
 
     return merge(left, right)
 ## WRITE MERGE_SORT FUNCTION HERE ##
