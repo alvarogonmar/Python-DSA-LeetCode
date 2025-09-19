@@ -1,6 +1,7 @@
 def merge(array1, array2):
     combined = []
     i = 0
+    j = 0
 
 ## WRITE MERGE_SORT FUNCTION HERE ##
 #                                  #
