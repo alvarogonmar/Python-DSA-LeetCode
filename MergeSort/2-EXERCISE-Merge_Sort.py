@@ -14,6 +14,8 @@ def merge(array1, array2):
         combined.append(array1[i])
         i += 1
 
+    while j < len(array2):
+
 
     return merge(left, right)
 ## WRITE MERGE_SORT FUNCTION HERE ##
