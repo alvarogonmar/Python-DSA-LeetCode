@@ -12,6 +12,7 @@ def merge(array1, array2):
               
     while i < len(array1):
         combined.append(array1[i])
+        i += 1
 
 
     return merge(left, right)
