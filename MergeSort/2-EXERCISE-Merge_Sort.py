@@ -11,6 +11,7 @@ def merge(array1, array2):
             j += 1
               
     while i < len(array1):
+        combined.append(array1[i])
 
 
     return merge(left, right)
