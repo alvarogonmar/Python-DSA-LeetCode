@@ -8,6 +8,7 @@ def merge(array1, array2):
             i += 1
         else:
             combined.append(array2[j])
+            j += 1
 
 
     return merge(left, right)
