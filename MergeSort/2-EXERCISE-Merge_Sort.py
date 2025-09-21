@@ -25,7 +25,7 @@ def merge_sort(my_list):
         return my_list
     mid_index = int(len(my_list)/2)
     left = merge_sort(my_list[:mid_index])
-
+    right = merge_sort(my_list[mid_index:])
 
     return merge(left, right)
 ## WRITE MERGE_SORT FUNCTION HERE ##
