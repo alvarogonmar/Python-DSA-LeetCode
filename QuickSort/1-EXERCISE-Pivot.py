@@ -14,6 +14,7 @@ def swap(my_list, index1, index2):
 def pivot(my_list, pivot_index, end_index):
     swap_index = pivot_index
     for i in range(pivot_index+1, end_index+1):
+        if my_list[i] < my_list[pivot_index]:
 
 
 my_list = [4,6,1,7,3,2,5]
