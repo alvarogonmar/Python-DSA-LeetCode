@@ -22,6 +22,7 @@ def merge(array1, array2):
 
 def merge_sort(my_list):
     if len(my_list) == 1:
+        return my_list
 
 
     return merge(left, right)
