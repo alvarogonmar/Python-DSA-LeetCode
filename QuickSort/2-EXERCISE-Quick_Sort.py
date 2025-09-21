@@ -4,15 +4,7 @@ def swap(my_list, index1, index2):
     my_list[index2] = temp
 
 
-
-
-## WRITE QUICK_SORT_HELPER FUNCTION HERE ##
-#                                         #
-#                                         #
-#                                         #
-#                                         #
-###########################################
-def quick_sort_helper(my_list, left, right):
+def pivot(my_list, pivot_index, end_index):
 
 
 def quick_sort(my_list):
