@@ -1,0 +1,37 @@
+def swap(my_list, index1, index2):
+    temp = my_list[index1]
+    my_list[index1] = my_list[index2]
+    my_list[index2] = temp
+
+
+
+
+## WRITE QUICK_SORT_HELPER FUNCTION HERE ##
+#                                         #
+#                                         #
+#                                         #
+#                                         #
+###########################################
+def quick_sort_helper(my_list, left, right):
+
+
+def quick_sort(my_list):
+    quick_sort_helper(my_list, 0, len(my_list)-1)
+
+
+
+
+
+my_list = [4,6,1,7,3,2,5]
+
+quick_sort(my_list)
+
+print(my_list)
+
+
+
+"""
+    EXPECTED OUTPUT:
+    ----------------
+    [1, 2, 3, 4, 5, 6, 7]
+ """
