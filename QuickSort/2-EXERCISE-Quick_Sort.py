@@ -5,6 +5,7 @@ def swap(my_list, index1, index2):
 
 
 def pivot(my_list, pivot_index, end_index):
+    swap_index = pivot_index
 
 
 def quick_sort(my_list):
