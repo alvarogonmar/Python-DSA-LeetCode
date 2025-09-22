@@ -14,6 +14,15 @@ def pivot(my_list, pivot_index, end_index):
     swap(my_list, pivot_index, swap_index)
     return swap_index
 
+
+## WRITE QUICK_SORT_HELPER FUNCTION HERE ##
+#                                         #
+#                                         #
+#                                         #
+#                                         #
+###########################################
+def quick_sort_helper(my_list, left, right):
+
 def quick_sort(my_list):
     quick_sort_helper(my_list, 0, len(my_list)-1)
 
