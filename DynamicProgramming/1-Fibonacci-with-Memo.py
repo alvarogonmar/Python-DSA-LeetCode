@@ -6,3 +6,4 @@ def fib(n):
     counter += 1
 
     if memo[n] is not None:
+        return memo[n]
