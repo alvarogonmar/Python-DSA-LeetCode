@@ -13,3 +13,4 @@ def fib(n):
     return memo[n]
 
 n = 7
+print("Fib of" , n, "=", fib(n))
