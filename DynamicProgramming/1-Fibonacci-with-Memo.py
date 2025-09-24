@@ -14,3 +14,4 @@ def fib(n):
 
 n = 7
 print("Fib of" , n, "=", fib(n))
+print("Counter: ", counter)
