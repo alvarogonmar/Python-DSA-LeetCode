@@ -3,7 +3,7 @@ counter = 0 # To count the number of function calls
 
 def fib(n): # Using memoization
     global counter # Access the global counter variable
-    counter += 1
+    counter += 1 # Increment the counter each time the function is called
 
     if memo[n] is not None:
         return memo[n]
