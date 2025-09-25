@@ -2,7 +2,7 @@ memo = [None] * 100 # Assuming n will not exceed 99
 counter = 0 # To count the number of function calls
 
 def fib(n): # Using memoization
-    global counter
+    global counter # Access the global counter variable
     counter += 1
 
     if memo[n] is not None:
