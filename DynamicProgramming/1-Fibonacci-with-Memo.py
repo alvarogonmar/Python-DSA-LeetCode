@@ -1,4 +1,4 @@
-memo = [None] * 100
+memo = [None] * 100 # Assuming n will not exceed 99
 counter = 0
 
 def fib(n):
