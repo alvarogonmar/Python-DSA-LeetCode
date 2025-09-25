@@ -5,7 +5,7 @@ def fib(n): # Using memoization
     global counter # Access the global counter variable
     counter += 1 # Increment the counter each time the function is called
 
-    if memo[n] is not None:
+    if memo[n] is not None: # Check if already computed
         return memo[n]
     if n == 0 or n == 1:
         return n
