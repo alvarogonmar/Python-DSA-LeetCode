@@ -1,5 +1,5 @@
 memo = [None] * 100 # Assuming n will not exceed 99
-counter = 0
+counter = 0 # To count the number of function calls
 
 def fib(n):
     global counter
