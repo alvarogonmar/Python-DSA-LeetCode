@@ -13,7 +13,7 @@ def remove_element(nums, val):
             nums.pop(i)
         else:
             i += 1
-
+    return len(nums)
 # Test case 1: Removing a single instance of a value (1) in the middle of the list.
 nums1 = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
 val1 = 1
