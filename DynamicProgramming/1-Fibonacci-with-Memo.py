@@ -6,7 +6,7 @@ def fib(n): # Using memoization
     counter += 1 # Increment the counter each time the function is called
 
     if memo[n] is not None: # Check if already computed
-        return memo[n]
+        return memo[n] # Return the cached value
     if n == 0 or n == 1:
         return n
     memo[n] = fib(n-1) + fib(n-2)
