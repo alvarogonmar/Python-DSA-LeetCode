@@ -8,7 +8,7 @@
 
 def remove_element(nums, val): # Function to remove all instances of val in nums
     i = 0 # Initialize index
-    while i < len(nums):
+    while i < len(nums): # Loop through the list
         if nums[i] == val:
             nums.pop(i)
         else:
