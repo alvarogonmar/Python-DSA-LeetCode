@@ -12,7 +12,7 @@ def remove_element(nums, val): # Function to remove all instances of val in nums
         if nums[i] == val: # If the current element is equal to val
             nums.pop(i) # Remove the element
         else: # If not equal
-            i += 1
+            i += 1 # Move to the next index
     return len(nums)
 # Test case 1: Removing a single instance of a value (1) in the middle of the list.
 nums1 = [-2, 1, -3, 4, -1, 2, 1, -5, 4] # Example list
