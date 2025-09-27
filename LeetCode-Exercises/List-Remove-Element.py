@@ -16,7 +16,7 @@ def remove_element(nums, val): # Function to remove all instances of val in nums
     return len(nums)
 # Test case 1: Removing a single instance of a value (1) in the middle of the list.
 nums1 = [-2, 1, -3, 4, -1, 2, 1, -5, 4] # Example list
-val1 = 1
+val1 = 1 # Value to remove
 print("\nRemove a single instance of value", val1, "in the middle of the list.")
 print("BEFORE:", nums1)
 new_length1 = remove_element(nums1, val1)
