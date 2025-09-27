@@ -6,7 +6,7 @@
 ##########################################
 
 
-def remove_element(nums, val):
+def remove_element(nums, val): # Function to remove all instances of val in nums
     i = 0
     while i < len(nums):
         if nums[i] == val:
