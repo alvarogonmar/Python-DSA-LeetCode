@@ -11,7 +11,7 @@ def remove_element(nums, val): # Function to remove all instances of val in nums
     while i < len(nums): # Loop through the list
         if nums[i] == val: # If the current element is equal to val
             nums.pop(i) # Remove the element
-        else:
+        else: # If not equal
             i += 1
     return len(nums)
 # Test case 1: Removing a single instance of a value (1) in the middle of the list.
