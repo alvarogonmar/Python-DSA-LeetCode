@@ -6,6 +6,8 @@
 ###########################################
 def find_longest_string(string_list):
 
+    if not string_list:   # lista vacía
+
         
 
 
