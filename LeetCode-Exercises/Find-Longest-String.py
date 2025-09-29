@@ -15,7 +15,7 @@ def find_longest_string(string_list):
         
     for word in string_list:
         if max_string == len(word):
-
+            return word
         
 
 
