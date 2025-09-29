@@ -13,5 +13,6 @@ def remove_duplicates(nums):
     
     while r < len(nums):
         if nums[l] == nums[r]:
+            r += 1
 
 
