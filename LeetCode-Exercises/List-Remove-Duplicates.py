@@ -16,5 +16,6 @@ def remove_duplicates(nums):
             r += 1
         else:
             l += 1
+            nums[l] = nums[r]
 
 
