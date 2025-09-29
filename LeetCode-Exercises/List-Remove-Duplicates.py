@@ -40,5 +40,8 @@ print("------")
 test3 = [1, 2, 3, 4, 5]
 print(f"Test 3 Before: {test3}")
 result3 = remove_duplicates(test3)
+print(f"Test 3 After: {test3[:result3]}")
+print(f"New Length: {result3}")
+print("------")
 
 
