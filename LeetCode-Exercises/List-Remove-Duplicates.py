@@ -10,5 +10,7 @@ def remove_duplicates(nums):
         return 0
     l = 0
     r = 1
+    
+    while r < len(nums):
 
 
