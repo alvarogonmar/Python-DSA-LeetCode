@@ -6,5 +6,6 @@
 #########################################
     
 def remove_duplicates(nums):
+    if not nums:
 
 
