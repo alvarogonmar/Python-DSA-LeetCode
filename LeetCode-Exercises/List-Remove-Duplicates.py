@@ -24,5 +24,13 @@ def remove_duplicates(nums):
 test1 = []
 print(f"Test 1 Before: {test1}")
 result1 = remove_duplicates(test1)
+print(f"Test 1 After: {test1[:result1]}")
+print(f"New Length: {result1}")
+print("------")
+
+# Test case 2: List with all duplicates
+test2 = [1, 1, 1, 1, 1]
+print(f"Test 2 Before: {test2}")
+result2 = remove_duplicates(test2)
 
 
