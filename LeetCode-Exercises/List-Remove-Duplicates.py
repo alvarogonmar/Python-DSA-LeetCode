@@ -8,5 +8,6 @@
 def remove_duplicates(nums):
     if not nums:
         return 0
+    l = 0
 
 
