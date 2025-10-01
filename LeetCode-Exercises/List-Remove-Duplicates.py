@@ -44,4 +44,12 @@ print(f"Test 3 After: {test3[:result3]}")
 print(f"New Length: {result3}")
 print("------")
 
+# Test case 4: List with some duplicates
+test4 = [1, 1, 2, 2, 3, 4, 5, 5]
+print(f"Test 4 Before: {test4}")
+result4 = remove_duplicates(test4)
+print(f"Test 4 After: {test4[:result4]}")
+print(f"New Length: {result4}")
+print("------")
+
 
