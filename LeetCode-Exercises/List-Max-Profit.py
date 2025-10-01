@@ -10,3 +10,4 @@ def max_profit(prices):
     l, r = 0, 1
     
     while r < len(prices):
+        if prices[r] < prices[l]:
