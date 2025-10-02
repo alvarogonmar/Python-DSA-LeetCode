@@ -16,3 +16,4 @@ def max_profit(prices):
         elif prices[l] < prices[r]:
             profit = prices[r] - prices[l]
             maxi = max(maxi, profit)
+            r += 1
