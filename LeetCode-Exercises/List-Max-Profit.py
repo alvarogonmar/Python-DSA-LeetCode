@@ -18,3 +18,8 @@ def max_profit(prices):
             maxi = max(maxi, profit)
             r += 1
     return maxi
+    
+
+
+prices = [7, 1, 5, 3, 6, 4]
+profit = max_profit(prices)
