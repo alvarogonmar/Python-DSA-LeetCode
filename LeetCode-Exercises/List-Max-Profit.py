@@ -31,3 +31,9 @@ print("-----------------------------")
 
 prices = [7, 6, 4, 3, 1]
 profit = max_profit(prices)
+print("Test with descending prices:")
+print("Prices:", prices)
+print("Maximum profit:", profit)
+print("-----------------------------")
+
+
