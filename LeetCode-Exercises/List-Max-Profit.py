@@ -37,3 +37,5 @@ print("Maximum profit:", profit)
 print("-----------------------------")
 
 
+prices = [1, 2, 3, 4, 5, 6]
+profit = max_profit(prices)
