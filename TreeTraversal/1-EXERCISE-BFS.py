@@ -48,6 +48,8 @@ class BinarySearchTree:
         queue = []
         queue.append(current_node)
 
+        while len(queue)>0:
+
 
 
 
