@@ -43,6 +43,7 @@ class BinarySearchTree:
         return False
   
     def BFS(self):
+        current_node = self.root
 
 
 
