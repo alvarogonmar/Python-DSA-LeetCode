@@ -46,6 +46,7 @@ class BinarySearchTree:
         current_node = self.root
         results = []
         queue = []
+        queue.append(current_node)
 
 
 
