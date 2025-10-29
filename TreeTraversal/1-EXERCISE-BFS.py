@@ -50,6 +50,7 @@ class BinarySearchTree:
 
         while len(queue)>0:
             current_node = queue.pop(0)
+            results.append(current_node.value)
 
 
 
