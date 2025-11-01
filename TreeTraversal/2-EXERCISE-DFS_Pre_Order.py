@@ -60,6 +60,7 @@ class BinarySearchTree:
     def dfs_pre_order(self):
         results = []
         def traverse(current_node):
+            results.append(current_node.value)
 
 
 
