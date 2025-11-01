@@ -58,6 +58,7 @@ class BinarySearchTree:
         return results
     
     def dfs_pre_order(self):
+        results = []
 
 
 
