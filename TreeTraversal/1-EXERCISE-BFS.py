@@ -52,6 +52,8 @@ class BinarySearchTree:
             current_node = queue.pop(0)
             results.append(current_node.value)
             if current_node.left is not None:
+                queue.append(current_node.left)
+
 
 
 
@@ -76,13 +78,3 @@ print(my_tree.BFS())
     [47, 21, 76, 18, 27, 52, 82]
 
  """
-
-
-
-
-
-                
-
-
-
- 
