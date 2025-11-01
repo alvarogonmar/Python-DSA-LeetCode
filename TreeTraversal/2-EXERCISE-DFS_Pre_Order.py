@@ -56,6 +56,8 @@ class BinarySearchTree:
             if current_node.right is not None:
                 queue.append(current_node.right)
         return results
+    
+    def dfs_pre_order(self):
 
 
 
