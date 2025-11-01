@@ -53,6 +53,7 @@ class BinarySearchTree:
             results.append(current_node.value)
             if current_node.left is not None:
                 queue.append(current_node.left)
+            if current_node.right is not None:
 
 
 
