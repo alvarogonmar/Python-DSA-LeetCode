@@ -69,6 +69,7 @@ class BinarySearchTree:
         return results
 
     def dfs_post_order(self):
+        results = []
 
 
 
