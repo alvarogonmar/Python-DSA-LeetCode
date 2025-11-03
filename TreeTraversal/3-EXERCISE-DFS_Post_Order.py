@@ -77,6 +77,9 @@ class BinarySearchTree:
                 traverse(current_node.right)
             results.append(current_node.value)
         traverse(self.root)
+        return results
+
+
 
 
 
