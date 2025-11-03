@@ -76,6 +76,7 @@ class BinarySearchTree:
             if current_node.right is not None:
                 traverse(current_node.right)
             results.append(current_node.value)
+        traverse(self.root)
 
 
 
