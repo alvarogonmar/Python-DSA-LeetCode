@@ -68,6 +68,7 @@ class BinarySearchTree:
         traverse(self.root)
         return results
 
+    def dfs_post_order(self):
 
 
 
