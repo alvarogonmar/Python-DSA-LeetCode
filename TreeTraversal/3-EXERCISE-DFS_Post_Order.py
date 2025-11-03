@@ -71,6 +71,7 @@ class BinarySearchTree:
     def dfs_post_order(self):
         results = []
         def traverse(current_node):
+            if current_node.left is not None:
 
 
 
