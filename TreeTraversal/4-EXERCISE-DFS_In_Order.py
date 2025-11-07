@@ -90,6 +90,7 @@ class BinarySearchTree:
             if current_node.left is not None:
                 traverse(current_node.left)
             results.append(current_node.value)
+            if current_node.right is not None:
 
         
 
