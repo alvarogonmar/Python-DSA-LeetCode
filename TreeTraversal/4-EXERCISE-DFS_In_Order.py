@@ -85,6 +85,7 @@ class BinarySearchTree:
         return results
 
     def dfs_in_order(self):
+        results = []
 
         
 
