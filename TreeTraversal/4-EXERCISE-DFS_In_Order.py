@@ -89,6 +89,7 @@ class BinarySearchTree:
         def traverse(current_node):
             if current_node.left is not None:
                 traverse(current_node.left)
+            results.append(current_node.value)
 
         
 
